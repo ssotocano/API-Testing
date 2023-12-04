@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'ApoloLabs'
+version '1.0.SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories{
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
+    testImplementation 'io.rest-assured:rest-assured:5.3.2'
+    // https://mvnrepository.com/artifact/io.cucumber/cucumber-java
+    implementation 'io.cucumber:cucumber-java:7.14.1'
+
+
+
+}
